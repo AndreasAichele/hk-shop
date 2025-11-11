@@ -62,7 +62,6 @@
 # Local configuration       #
 #--------------------------#
 
-/auth.json
 /app/etc/env.php
 /.env.local
 
