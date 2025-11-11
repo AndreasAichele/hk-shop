@@ -16,6 +16,6 @@ jobs:
     uses: ./.github/workflows/phpcs.yml
 
   phpcbf:
-    if: github.ref == 'refs/heads/staging'
+    if: github.ref == 'refs/heads/dev'
     needs: phpcs
     uses: ./.github/workflows/phpcbf.yml
