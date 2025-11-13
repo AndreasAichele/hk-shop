@@ -472,6 +472,15 @@ return [
             'type' => '0',
             'code' => 'Hyva/default',
         ],
+        'frontend/DieMayrei/hyva_child' => [
+            'parent_id' => 'Hyva/default',
+            'theme_path' => 'DieMayrei/hyva_child',
+            'theme_title' => 'DieMayrei Hyvä Child',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'DieMayrei/hyva_child',
+        ],
     ],
     /**
      * For the section: system
@@ -7147,7 +7156,7 @@ Disallow: /*SID=
                     'logo_height' => null,
                 ],
                 'theme' => [
-                    'theme_id' => 'frontend/Hyva/default',
+                    'theme_id' => 'frontend/DieMayrei/hyva_child',
                 ],
             ],
             'theme' => [
